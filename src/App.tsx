@@ -29,7 +29,7 @@ function App() {
 
   const handleAddUser = () => {
     const user = users.find(user=>{
-      return user.name == name
+      return user.name === name
     })
     if (user) {
       setMessage('کاربری با این نام وجود دارد')
